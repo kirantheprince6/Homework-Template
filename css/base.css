@@ -1,0 +1,28 @@
+html, body {
+	margin: 10px 0;
+	padding: 0;
+	background: #f2f2f2;
+    font-family: Helvetica, sans-serif;
+    color: #333;
+}
+
+#homework {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#docinfo {
+    text-align: right;
+    font-size: 14px;
+}
+#docinfo div {
+    padding: 2px 0;
+}
+
+#title {
+    text-align: center;
+    font-size: 40px;
+    line-height: 80px;
+    margin-top: 0px;
+    border-bottom: 1px solid #ddd;
+}
