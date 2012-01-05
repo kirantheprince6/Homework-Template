@@ -25,3 +25,32 @@ html, body {
     margin-top: 0px;
     border-bottom: 1px solid #ddd;
 }
+
+.center {
+    margin: 0 auto;
+}
+
+.standard {
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    border-spacing: 0;
+}
+
+.standard th, .standard td {
+    padding: 5px 10px;
+    margin: 0;
+}
+
+.standard td {
+    border-top: 1px solid #ccc;    
+}
+
+.standard tbody th {
+    border-top: 1px solid #ccc;
+}
+
+.standard th + th, .standard td + td, .standard th + td {
+    border-left: 1px solid #ccc;
+}
+
